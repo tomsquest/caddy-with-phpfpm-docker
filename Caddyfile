@@ -1,0 +1,6 @@
+localhost:8080 {
+  root /home/tom/tmp/test/html
+  log stdout
+  errors stderr
+  fastcgi / localhost:9000 php
+}
